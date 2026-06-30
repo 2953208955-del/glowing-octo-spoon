@@ -1,5 +1,6 @@
-streamlit==1.30.0
+# 运行Gradio面板必需依赖
+gradio
 numpy
-pandas==2.0.3
 plotly
-scipy
+# 清华镜像源，放在文件末尾加速下载
+-i https://pypi.tuna.tsinghua.edu.cn/simple
